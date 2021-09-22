@@ -124,8 +124,8 @@ def get_one_product(browser, folder):
     xpath_color = '//*[@id="maincontent"]/section/div[3]/div/div/div/div[1]/div'
     color_bar = browser.find_element_by_xpath(xpath_color)
     num_color = len(color_bar.find_elements_by_tag_name('button'))
-    # xpath_size = '//*[@id="maincontent"]/section/div[3]/div/div/div/div[2]/div/div[1]/div' #những sản phẩm khác
-    xpath_size = '//*[@id="maincontent"]/section/div[3]/div/div/div[3]/div[1]/div' #dành cho rings
+    xpath_size = '//*[@id="maincontent"]/section/div[3]/div/div/div/div[2]/div/div[1]/div' #những sản phẩm khác
+    # xpath_size = '//*[@id="maincontent"]/section/div[3]/div/div/div[3]/div[1]/div' #dành cho rings
     size_bar = browser.find_element_by_xpath(xpath_size)
     num_size = len(size_bar.find_elements_by_tag_name('button'))
     all_color_size_product = {}
