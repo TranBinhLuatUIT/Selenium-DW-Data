@@ -1,2 +1,2 @@
 # Selenium-DW-Data
-I crawl product data from Daniel wellington for study Selenium
+I crawl product data from Daniel wellington and Stock Data for study Selenium
